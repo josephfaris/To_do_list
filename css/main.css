@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(83, 73, 73);
+
+}
+.header h1 {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(194, 194, 194);
+    font-weight: bold;
+}
+.tasks {
+    text-align: center;
+}
+
+.add input {
+        width: 35%;
+        height: 28px;
+        background-color: black;
+        border-radius: 10px;
+        color: white;
+        padding: 5px 10px;
+
+}
+.add button {
+border-radius: 10px;
+width:80px;
+color:rgb(180 255 255);
+height: 38px;
+background-color: black;
+margin-bottom: 5px;
+cursor: pointer;
+
+}
+.to_do h1 {
+    font-size: 30px;
+    color: rgb(194, 194, 194);
+    font-weight: bold;
+    width: 70%;
+    margin: 30px auto;
+ 
+}
+.content {
+    width: 100%;
+    text-align: center;
+        height:38px;
+        background-color: rgb(41, 41, 41);
+        border-radius: 10px;
+        color: white;
+        padding: 5px 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 15px 0;
+        
+}
+.content input {
+    color: white;
+}
+.inpt {
+    background-color: rgb(41, 41, 41);
+ border: none;
+outline: none;
+width:60%;
+}
+.tazbeet{
+    text-align: center;
+    margin: auto;
+    width: 60%;
+}
+
+.remove {
+    border-radius: 10px;
+width:80px;
+color: rgb(180 255 255);
+height: 38px;
+background-color: black;
+margin-bottom: 5px;
+cursor: pointer;
+
+}
+.edit {
+    border-radius: 10px;
+    width:80px;
+    color: rgb(180 255 255);
+    height: 38px;
+    background-color: black;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+@media (max-width:780px) {
+    .edit,.remove  {
+        width: 43px;
+        font-size: 12px;
+    }
+    .tazbeet{
+      width: 80%;
+    }
+
+}
+@media (max-width:380px) {
+    .edit,.remove  {
+        width: 43px;
+        font-size: 12px;
+    }
+    .tazbeet{
+      width: 85%;
+    }
+
+}
